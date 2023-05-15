@@ -2,14 +2,10 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div>
-      <div className="workCards">
-        <div className="card">
-          <img src={props.image} />
-          <div className="picLegend">
-            <p>{props.legend}</p>
-          </div>
-        </div>
+    <div className="card">
+      <img className="img" src={props.image} alt="" />
+      <div className="picLegend">
+        <p>{props.legend}</p>
       </div>
     </div>
   );

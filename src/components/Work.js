@@ -14,18 +14,34 @@ import Card from "./Card";
 function Work() {
   let array = [
     {
-      image: "../public/images/DSCF2238.jpg",
+      image: "/images/DSCF2238.jpg",
       legend: " 1 Lorem ipsum ",
     },
     {
-      image: "../public/images/DSCF2238.jpg",
+      image: "/images/DSCF2238.jpg",
       legend: " 2 Lorem ipsum ",
+    },
+    {
+      image: "/images/DSCF2238.jpg",
+      legend: " 3 Lorem ipsum ",
+    },
+    {
+      image: "/images/DSCF2238.jpg",
+      legend: " 4 Lorem ipsum ",
+    },
+    {
+      image: "/images/DSCF2238.jpg",
+      legend: " 5 Lorem ipsum ",
+    },
+    {
+      image: "/images/DSCF2238.jpg",
+      legend: " 6 Lorem ipsum ",
     },
   ];
 
   const renderMyArray = () => {
-    return array.map((item) => {
-      return <Card title={item.legend} />;
+    return array.map((item, index) => {
+      return <Card key={index} image={item.image} legend={item.legend} />;
     });
   };
 
@@ -46,7 +62,7 @@ function Work() {
           <div className="divTitle">
             <h2>My projects</h2>
           </div>
-          {renderMyArray()}
+          <div className="workCards">{renderMyArray()}</div>
         </div>
       </div>
       <Footer />
