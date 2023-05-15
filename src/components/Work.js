@@ -9,8 +9,26 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Header from "../assets/Header";
 import Footer from "../assets/Footer";
+import Card from "./Card";
 
 function Work() {
+  let array = [
+    {
+      image: "../public/images/DSCF2238.jpg",
+      legend: " 1 Lorem ipsum ",
+    },
+    {
+      image: "../public/images/DSCF2238.jpg",
+      legend: " 2 Lorem ipsum ",
+    },
+  ];
+
+  const renderMyArray = () => {
+    return array.map((item) => {
+      return <Card title={item.legend} />;
+    });
+  };
+
   return (
     <div>
       <Header />
@@ -25,22 +43,10 @@ function Work() {
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
-        </div>
-        <div className="divTitle">
-          <h2>My projects</h2>
-        </div>
-        <div className="workCards">
-          <div className="card">
-            <div className="picLegend">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
+          <div className="divTitle">
+            <h2>My projects</h2>
           </div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          {renderMyArray()}
         </div>
       </div>
       <Footer />

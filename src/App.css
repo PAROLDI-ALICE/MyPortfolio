@@ -240,7 +240,7 @@ a {
   width: 25em;
   gap: 5%;
   margin: 1%;
-  background-image: url("../public/images/DSCF2238.jpg");
+  /* background-image: url("../public/images/DSCF2238.jpg"); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
