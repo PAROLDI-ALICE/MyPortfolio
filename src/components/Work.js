@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faReact,
+  faJavaScript,
   faLaravel,
+  faWordpress,
   faTrello,
   faPHP,
 } from "@fortawesome/free-brands-svg-icons";
@@ -50,18 +52,19 @@ function Work() {
       <Header />
       <div className="workMain">
         <div className="divTitle">
-          <h2>Working with</h2>
+          <h2>Projects with</h2>
           <div className="workIcons">
-            <FontAwesomeIcon icon={faReact} />
-            <FontAwesomeIcon icon={faLaravel} />
-            <FontAwesomeIcon icon={faTrello} />
             <a href="https://github.com/PAROLDI-ALICE">
               <FontAwesomeIcon icon={faGithub} />
             </a>
+            <FontAwesomeIcon icon={faReact} />
+            <FontAwesomeIcon icon={faLaravel} />
+            <FontAwesomeIcon icon={faWordpress} />
+            <FontAwesomeIcon icon={faTrello} />
           </div>
-          <div className="divTitle">
+          {/* <div className="divTitle">
             <h2>My projects</h2>
-          </div>
+          </div> */}
           <div className="workCards">{renderMyArray()}</div>
         </div>
       </div>

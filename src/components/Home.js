@@ -13,8 +13,8 @@ function Home() {
         <div className="firstHomeBox">
           <p id="homeMotto">
             {[
-              "Ceci n'est",
-              "pas un",
+              "This is",
+              "not a",
               <Link className="linkPortfolio" to="/work">
                 portfolio
               </Link>,
