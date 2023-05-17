@@ -73,6 +73,10 @@
   letter-spacing: 0.12em;
 }
 
+.ongletContact:hover {
+  background-color: #de7151;
+}
+
 .divName {
   flex-grow: 3;
 }
@@ -104,8 +108,12 @@
   font-size: 25px;
   font-weight: 400;
   border-radius: 50%;
-  padding: 0.6em;
+  padding: 0.5em;
   letter-spacing: 0.05em;
+}
+
+.letter:hover {
+  background-color: #de7151;
 }
 
 /*HOME*/

@@ -11,27 +11,23 @@ function About() {
       <div className="workMain">
         <div className="displayHome">
           <div className="aboutText">
-            <h2>Hi, I'm Alice..</h2>
-            <p>
-              ...and newly a junior web developer eager to embrace new
-              challenge.
-            </p>
+            <h2>Hi, I'm Alice...</h2>
+            <p>and a junior web developer.</p>
             <p>
               I have received a comprehensive training in both front-end and
-              back-end languages.
+              back-end languages with a strong focus on PHP and JavaScript.
             </p>
             <p>
-              Thanks to a strong focus on PHP and JavaScript I have gained
-              experience in crafting responsive apps.
+              I am now able to code in different frameworks for responsive
+              website or apps.
             </p>
             <p>
-              I thrive in team environments and believe that diverse
-              perspectives and collective brainstorming lead to innovative
-              solutions.{" "}
+              I am open-minded and enthousiastic, always ready to collaborate
+              and eager to embrace new challenges.{" "}
             </p>
             <p>
-              I am open-minded and enthousisatic person, always ready to
-              collaborate and not feraing the unknown.{" "}
+              Stuck at some point in the code? <br />
+              Must be a way out, anyway. Keep coding! :)
             </p>
           </div>
           <div className="aboutIcons">

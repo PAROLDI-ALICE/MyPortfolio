@@ -9,7 +9,11 @@ function Header() {
   return (
     <div className="navBar">
       <div className="divPress">
-        <div className="letter">AP</div>
+        <div className="letter">
+          <a href="/CV_Alice_Paroldi_Web_Dev_Alternance.pdf" download>
+            AP
+          </a>
+        </div>
       </div>
       <div className="divName">
         <Name />
@@ -17,17 +21,17 @@ function Header() {
       <div className="divInfo">
         <div className="onglets">
           <Link className="link" to="/">
-            Home
+            Accueil
           </Link>
         </div>
         <div className="onglets">
           <Link className="link" to="/work">
-            Work
+            Réalisations
           </Link>
         </div>
         <div className="onglets">
           <Link className="link" to="/about">
-            About
+            À propos
           </Link>
         </div>
         <div className="ongletContact">

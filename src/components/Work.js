@@ -52,7 +52,7 @@ function Work() {
       <Header />
       <div className="workMain">
         <div className="divTitle">
-          <h2>Projects with</h2>
+          <h2>Technos </h2>
           <div className="workIcons">
             <a href="https://github.com/PAROLDI-ALICE">
               <FontAwesomeIcon icon={faGithub} />
