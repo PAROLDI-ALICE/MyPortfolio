@@ -52,21 +52,21 @@ function Work() {
       <Header />
       <div className="workMain">
         <div className="divTitle">
-          <h2>Technos </h2>
-          <div className="workIcons">
-            <a href="https://github.com/PAROLDI-ALICE">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <FontAwesomeIcon icon={faReact} />
-            <FontAwesomeIcon icon={faLaravel} />
-            <FontAwesomeIcon icon={faWordpress} />
-            <FontAwesomeIcon icon={faTrello} />
-          </div>
-          {/* <div className="divTitle">
+          <h2>Technos & Outils</h2>
+        </div>
+        <div className="workIcons">
+          <a href="https://github.com/PAROLDI-ALICE">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <FontAwesomeIcon icon={faReact} />
+          <FontAwesomeIcon icon={faLaravel} />
+          <FontAwesomeIcon icon={faWordpress} />
+          <FontAwesomeIcon icon={faTrello} />
+        </div>
+        {/* <div className="divTitle">
             <h2>My projects</h2>
           </div> */}
-          <div className="workCards">{renderMyArray()}</div>
-        </div>
+        <div className="workCards">{renderMyArray()}</div>
       </div>
       <Footer />
     </div>

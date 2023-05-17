@@ -269,6 +269,8 @@ a {
   opacity: 0.8;
 }
 
+/*CONTACT*/
+
 /*FOOTER*/
 .myFooter {
   display: flex;
@@ -282,6 +284,7 @@ a {
   background-color: #505e5f;
   height: 4em;
   margin-top: 5%;
+  padding-bottom: 1em;
 }
 
 #footerText {
