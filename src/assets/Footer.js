@@ -5,10 +5,17 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <div className="myFooter">
-      <p id="footerText">
+      <div id="footerText">
         {" "}
-        © Made in <FontAwesomeIcon icon={faReact} /> by Alice Paroldi | 2023
-      </p>
+        <p>
+          © Made in{" "}
+          <span>
+            {" "}
+            <FontAwesomeIcon icon={faReact} />
+          </span>{" "}
+          by Alice Paroldi | 2023
+        </p>
+      </div>
     </div>
   );
 }

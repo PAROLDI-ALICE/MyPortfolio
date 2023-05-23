@@ -9,9 +9,9 @@ function Header() {
   return (
     <div className="navBar">
       <div className="divPress">
-        <div className="letter">
+        <div className="letterBox">
           <a href="/CV_Alice_Paroldi_Web_Dev_Alternance.pdf" download>
-            AP
+            <span className="initials">AP</span>
           </a>
         </div>
       </div>

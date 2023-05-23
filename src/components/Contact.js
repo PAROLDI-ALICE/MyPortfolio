@@ -8,25 +8,40 @@ import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 import "../ContactForm.css";
 
 function Contact() {
+  const [displayTooltip, setDisplayTooltip] = useState(false);
+
+  const handleButtonClick1 = () => {
+    setDisplayTooltip(!displayTooltip);
+  };
   return (
     <div>
       <Header />
       <div className="workMain">
-        <div className="divTitle">
-          <h2>Parlons dév</h2>
-        </div>
-        <div className="displayContact">
+        <div className="displayHome">
           <div className="aboutIcons">
             <div className="workIcons">
-              <a href="https://www.linkedin.com/in/alice-paroldi-389abb24a">
-                <FontAwesomeIcon icon={faMessage} />
-              </a>
-              <a href="https://github.com/PAROLDI-ALICE">
-                <FontAwesomeIcon icon={faMobileScreenButton} />
-              </a>
+              <div className="tooltip-container ">
+                <button className="buttonContact" onClick={handleButtonClick1}>
+                  <FontAwesomeIcon icon={faMessage} />
+                </button>
+                {displayTooltip && (
+                  <p id="tooltip-text">aliceparoldi@gmail.com</p>
+                )}
+              </div>
+              <div className="tooltip-container ">
+                <p id="tooltip-text">The tooltip text.</p>
+                <button className="buttonContact" onClick={handleButtonClick1}>
+                  <FontAwesomeIcon icon={faMobileScreenButton} />
+                </button>
+              </div>
             </div>
           </div>
-          <div className="aboutText"></div>
+          <div className="aboutText">
+            <h2>Parlons dév...</h2>
+            <p>Well, it's no rocket science!</p>
+            <p>aliceparoldi@gmail.com</p>
+            <p>06.27.62.96.87</p>
+          </div>
         </div>
       </div>
       <Footer />

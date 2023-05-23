@@ -11,24 +11,26 @@ function About() {
       <div className="workMain">
         <div className="displayHome">
           <div className="aboutText">
-            <h2>Ici, Alice...</h2>
-            <p>...web développeuse junior.</p>
+            <h2>Alice...</h2>
+            <p>...web développeuse full stack junior.</p>
             <p>
-              Dans le cadre de ma formation, j'ai réalisée diverses projets
-              utilisant Js et Php.
+              J'ai réalisé divers projets en Javascript, Php, React, Wordpress
+              et Laravel.
             </p>
             <p>
-              Je suis aujourd'hui apte à utiliser différents frameworks pour la
-              création de sites et d'applications.
+              Je suis aujourd'hui apte à m'adapter à différents frameworks pour
+              le développement de sites et d'applications.
             </p>
             <p>
-              Ouverte d'esprit, enthousiaste, j'apprécie particulièrement le
-              travail en équipe.
+              Ouverte d'esprit, enthousiaste et blaggeuse aussi, j'apprécie
+              particulièrement le travail en équipe.
             </p>
+
             <p>
-              Mon objectif actuel est donc d'intégrer une équipe pour contribuer
-              à la conception et à la réalisation de projets.
+              Mon objectif actuel est donc d'intégrer une équipe investie dans
+              des projets concrets.
             </p>
+            <p>Je parle couramment anglais et polonais.</p>
 
             {/* <h2>Hi, I'm Alice...</h2>
             <p>and a junior web developer.</p>
@@ -51,11 +53,11 @@ function About() {
           </div>
           <div className="aboutIcons">
             <div className="workIcons">
-              <a href="https://www.linkedin.com/in/alice-paroldi-389abb24a">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
               <a href="https://github.com/PAROLDI-ALICE">
                 <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a href="https://www.linkedin.com/in/alice-paroldi-389abb24a">
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
           </div>
